@@ -8,3 +8,16 @@ toggle = () => {
 setTimeout(() => {
 	container.classList.add('sign-in')
 }, 200)
+
+
+{/* <script> */}
+let popup = document.getElementById("btn_popup");
+
+function openPopup() {
+	popup.classList.add("open-popup");
+}
+
+function closePopup() {
+	popup.classList.remove("open-popup");
+}
+{/* </script> */}

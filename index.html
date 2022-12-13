@@ -35,7 +35,14 @@
 							<i class='bx bxs-lock-alt'></i>
 							<input type="password" placeholder="Confirm password">
 						</div>
-						<button>Sign up</button>
+							<button type= "btn_submit" class="btn_btn" onclick="openPopup()">Submit</button>
+							<div class="btn_popup" id="btn_popup">
+								<h2>Thank You!</h2>
+								<p class="popUp_text">Your details has been successfully submitted. Thanks!</p>
+								<a href="index.html">
+									<button type= "btn_submit" class="btn_btn" onclick="closePopup()">Back to Login</button>
+								</a>
+							</div>
 						<p>
 							<span>Already have an account?</span>
 							<b onclick="toggle()" class="pointer">Sign in here</b>
@@ -103,7 +110,6 @@
 		</div>
 		<!-- END CONTENT SECTION -->
 	</div>
-
 	<script src="index.js"></script>
 </body>
 
